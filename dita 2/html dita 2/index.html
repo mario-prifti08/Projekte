@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- imazhi ka si element vetem img dhe shoqerohet me atributet Src,Alt,Title,Align,Width,Height 
+    src- burimi i fotos
+    Alt- pershkrimi i fotos
+    Title- titulli i fotos
+    Align- pozicionimi majtas djathtas
+    Width- gjeresia e fotos
+    Height- gjatesia e fotos 
+    -->
+    <img src="./imazhe/html.png" alt="kjo eshte logo html" title="html2" align="right" width="100px" height="100px">
+
+
+    <!-- Tabela fillon gjithmon me elementin table. elemnti i rrjeshtit fillon gjithmon me elementin tr. qelizat e tabeles fillojne me elementin td. -->
+
+    <table style="width:50%;">
+        <tr>
+            <td>Emri</td>
+            <td>Mbiemri</td>
+            <td>Mosha</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Prifti</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Prifti</td>
+            <td>16</td>
+        </tr>
+    </table>
+
+<br><br>
+<hr>
+    <!-- format ne html percaktohen nga elementi form -->
+     <form>
+        <label for="emri">Emri:</label><br>
+        <input type="text" placeholder="Vendos emrin tuaj"><br>
+
+        <label for="password">Fjalekalimi:</label><br>
+        <input type="password"><br>
+
+        <label for="tel">Telefoni:</label><br>
+        <input type="tel"><br>
+
+        <input type="search" id="search" placeholder="Kerko informacion"> <br>
+
+        <input type="email" id="email" placeholder="Shkruaj emailin"><br>
+
+        <input type="number" id="nota" placeholder="Nota" min="4" max="10"><br>
+
+        <input type="color" id="color"><br>
+
+        <input type="date" name="ditelindje"><br>
+
+        <input type="datetime" name="mbledhje"><br>
+
+        <input type="datetime-local"><br>
+
+        <input type="time" name="darke"><br>
+
+        <input type="month" name="month"><br>
+
+        <input type="file" name="image">
+     </form>
+
+
+
+</body>
+</html>

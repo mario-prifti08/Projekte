@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color: aqua;
+    padding: 45px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.box h2{
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px;
+}
+.box p{
+    color: #2e2727;
+    font-size: 1rem;
+}
+.box button{
+    background-color: rgb(70, 70, 185);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.box button:hover{
+    background-color: blue;
+}

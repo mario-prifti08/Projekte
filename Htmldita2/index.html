@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mario</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!--imayhi ka si element vetem img dhe shoqerohet me atributet Src,Alt,Title,Align,Width,Heigh
+    
+    src-burimi i fotos
+    Alt-pershkrimi i fotots;
+    Align-pozicionimi majtas djathtas
+    Width-gjeresia e fotos
+    Height-gjatesia e fotos
+    -->
+    <img src="./imazhe/html.png" alt="kjo eshte logo html"
+    title="html2" align="right"width="100px"height="100px">
+
+    <!--Tabela fillon gjithmon me elementin table. elementi i rrjeshtit fillon gjithmon me elemetin tr. qelizat e tabeles fillojne me elemetin td-->
+
+    <table style="width:100%;">
+        <tr>
+            <td>Emri</td>
+            <td>mbiemri</td>
+            <td>mosha</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Prifti</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Prifti</td>
+            <td>16</td>
+        </tr>
+    </table>
+
+<br><br>
+<hr>
+    <!--format ne html percaktohen nga elemti form-->
+    <form>
+     <label for="emri">emri:</label><br>
+     <input type="text" placeholder="Vendos emrin tuaj">
+     <br>
+
+     <label for="password">fjaleklimi:</label><br>
+     <input type="password"> <br>  
+     <label for="tel">telefoni:</label><br>
+     <input type="tel"><br>
+
+     <input type="search" id="search" placeholder="Kerko informacion"><br>
+     <input type="email" id="email" placeholder="email"><br>
+     <input type="number" id="nota" placeholder="nota" min="4" max="10"><br>
+     <input type="color" id="color"><br>
+     <input type="date" name="ditelindje"><br>
+     <input type="datetime" name="mbledhje"><br>
+     <input type="datetime-local"><br>
+     <input type="time" name="darke"><br>
+     <input type="month" name="month"><br>
+     <input type="file" name="image"><br>
+     
+    </form>
+    
+    
+</body>
+</html> 

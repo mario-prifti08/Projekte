@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    background-color: purple;
+}
+header h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;  
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    font-weight:bolder ;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    background-color:antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+main article{
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #942727;
+}
+main article h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+main article p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+text-align: center;
+padding: 20px;
+margin: 20px;
+background-color: purple;
+}
+footer p{
+    color: white;
+    font-size: 30px;
+}

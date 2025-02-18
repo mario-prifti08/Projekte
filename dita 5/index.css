@@ -1,0 +1,105 @@
+h1 {
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: yellow;
+}
+
+body {
+    background-image: url("html.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+
+.p1 {
+    border-style: dotted;
+    border-color: red;
+}
+
+.p2 {
+    border-style: dashed;
+
+}
+
+.p3 {
+    border-style: solid;
+
+}
+
+.p4 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+.p5 {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+div {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+
+.mario {
+    background-color: coral;
+    width: 300px;
+    height: 250px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 100px;
+}
+
+.color {
+    color: red;
+    font-size: 28px;
+}
+
+.align {
+    text-align: center;
+    font-size: 28px;
+}
+
+.decor {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+
+.transformation {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.space {
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+.shadow {
+    font-size: 28px;
+    text-shadow: 2px 2px red;
+
+}
+
+a {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    background-color: brown;
+    color: orange;
+}

@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+h4{
+    background-color:darkorange ;
+    color: violet;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    background-color:black ;
+    color: white;
+    padding: 20px;
+    border: 10px solid red;
+    margin: 50px;
+}
+
+.paragrafi1{
+    background-color: silver;
+}
+.paragrafi2{
+    background-color: aqua;
+}
+.paragrafi3{
+    background-color: gray;
+}
+
+.link1{
+    background-color:navy ;
+    color: deepskyblue;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.link2{
+    background-color: darkviolet;
+    color: darkgreen;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid greenyellow;
+}
+.link3{
+    background-color: brown;
+    color: darkgoldenrod;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.link4{
+    background-color: aliceblue;
+    color: lawngreen;
+    font-size: 32px;
+    padding: 10px;
+    border:2px solid darkkhaki;
+}
+#paragafi1{
+    background-color: blanchedalmond;
+    color: aliceblue;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+#paragrafi2{
+    background-color: blanchedalmond;
+    color: darkmagenta;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+
+
+}
+#paragrafi3{
+    background-color: blanchedalmond;
+    color: darkmagenta;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+
+
+}
+#paragrafi4{
+    background-color: blanchedalmond;
+    color: darkmagenta;
+    font-size: 32px;
+    padding: 10px;
+    border: 2px solid black;
+
+
+}
+.h1{
+    background-color:#D696BB;
+    color: rgba(9, 9, 121,1);
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+background-color: hsl(0, 100%, 78%);
+background-color: hsla(0, 100%, 100%,0.5);
+}
