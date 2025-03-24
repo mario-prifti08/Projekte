@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.logo img{
+    width: 100px;
+    padding: 20px;
+}
+ul li{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{ 
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    color: black;
+}
+li a:hover{
+    color: gray;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main-tag h1{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 40px;
+}
+.main-tag span{
+    color: rgb(94, 189, 168);
+}
+.main-tag p{
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: rgb(89, 163, 163);
+    text-align: center;
+    border: none;
+    display: inline-block;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.main-btn:hover{
+background-color: aqua;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.services-card{
+    display: flex;
+    gap: 10px;
+}
+.fa-solid{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
